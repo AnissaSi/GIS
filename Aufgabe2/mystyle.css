@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(171, 213, 228);
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  main {
+    max-width: 80%;
+    margin: auto;
+  }
+  
+  h1.static {
+    color: rgb(0, 41, 128);
+    margin-left: 20px;
+  }
+  div {
+    width: 100%;
+    border: 15px solid rgb(0, 34, 128);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#satz1, #Startseite{
+  color: aqua;
+}
+.satz2,p{
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: 'Noto Sans TC', sans-serif;
+  
+}
+
+
+CSS[href],#satz3 {
+  background: rgb(19, 16, 189);
+  color: white;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+a:hover {
+  background-color: brown;
+}
+#pseudo::first-letter {
+  font-size: 1.3em;
+  background-color: rgb(174, 174, 219);
+}
+#beispiel:hover {
+  animation: 1s rotation ease-in-out;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(8deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@media (max-width: 1030px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(171, 213, 228);
+  }
+  main {
+    margin-top: 20vh;
+  }
+}
