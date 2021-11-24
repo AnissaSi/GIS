@@ -5,11 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta name="description" content="Reiseziel"/>
 
+        <link rel="stylesheet" href="mystyle.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&display=swap" rel="stylesheet">
     </head>
-    <link rel="stylesheet" href="mystyle.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&display=swap" rel="stylesheet">
 
     <body>
       <header>
@@ -32,10 +33,19 @@
       <p><a href="https://www.taiwantourismus.de"> Taiwan <Link></Link>
         <table>
         <tr>
-          <th>Datum</th>
-          <th>Uhrzeit</th> 
-          <th>Adresse</th>
-          <th>Künstler</th>
+          <form>
+            <label for="vname">Interpret:
+              <input type="text" id="Interpret" name="Interpret">
+            </label>
+            <form>
+              <label for="Price">
+                Price: 
+                <input id="price" type="number" min="0" max="220" step="1" value="0">
+          
+              </label>
+            </form>
+            
+          </form>
         </tr>
         <tr>
           <td>28.12.21</td>
